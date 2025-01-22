@@ -10,7 +10,7 @@ def fetch_appuser_data():
         con = connection_provider.get_con()
         cursor = con.cursor()
 
-        # Query to fetch user data
+        # Query to fetc  h user data
         cursor.execute(
             "SELECT appuser_pk, userRole, name, doj, mobileNumber, emailid, username, password, salary FROM appuser")  # Adjust your SQL query as needed
         rows = cursor.fetchall()
