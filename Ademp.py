@@ -19,7 +19,7 @@ class BackgroundPage:
         self.root = root
         # Ensure that size of image is same as/greater than size of frame
         self.raw_image = Image.open("003.jpg")
-        # Define the size of the image, which will also determine the size of the frame
+        # Define the size of the image , which will also determine the size of the frame
         self.raw_image = self.raw_image.resize((1200, 710))
         self.img = ImageTk.PhotoImage(self.raw_image)
 
