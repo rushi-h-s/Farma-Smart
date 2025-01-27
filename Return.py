@@ -10,7 +10,7 @@ class ReturnClass:
 
         self.root = root
         self.root.geometry("1300x750+130+0")
-        self.root.title("Pharmacy Management System ")
+        self.root.title("Pharmacy  Management System ")
         self.root.config(bg="white")
         self.root.resizable(False, False)
 
