@@ -43,7 +43,7 @@ class InventoryApp:
         self.lbl_title.place(x=270, y=20)
 
 
-        self.btn_back = tk.Button(root, text="BACK", font=("Tahoma", 18), bg='#22D43B', command=self.go_back, width=8, height=1)
+        self.btn_back = tk.Button(root, text="BACK ", font=("Tahoma", 18), bg='#22D43B', command=self.go_back, width=8, height=1)
         self.btn_back.place(x=30, y=200)
 
         self.btn_delete = tk.Button(root, text="DELETE", font=("Tahoma", 18), bg='#22D43B', command=self.delete, width=8, height=1)
