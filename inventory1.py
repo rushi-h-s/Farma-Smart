@@ -35,7 +35,7 @@ class InventoryApp:
     def __init__(self, root):
         self.add_stock = None
         self.root = root
-        self.root.title("Inventory")
+        self.root.title("Inventory ")
         self.root.geometry("1200x600")
         BackgroundPage(root)
         # UI Elements
