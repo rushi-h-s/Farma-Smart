@@ -5,7 +5,7 @@ from tkinter import messagebox, ttk
 import Login
 import addemp
 from Login import loginClass
-import SetImage as si
+import SetImage as  si
 
 
 from connector.ConnectionProvider import ConnectionProvider
