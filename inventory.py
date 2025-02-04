@@ -1,6 +1,6 @@
-import os 
+import  os 
 import tkinter as tk
-from  tkinter import messagebox, ttk
+from tkinter import messagebox, ttk
 from connector.ConnectionProvider import ConnectionProvider
 import Login
 import addemp
