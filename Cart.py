@@ -6,7 +6,7 @@ import time
 import os
 import subprocess
 from fpdf import FPDF
-from reportlab.lib.pagesizes import A4
+from reportlab.lib.pagesizes  import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from connector.ConnectionProvider import ConnectionProvider
