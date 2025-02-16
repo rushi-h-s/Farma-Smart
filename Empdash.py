@@ -4,7 +4,7 @@ from tkinter import ttk, messagebox
 
 from connector.ConnectionProvider import ConnectionProvider
 from PIL import Image, ImageTk
-from BackgroundPage import BackgroundPage
+from BackgroundPage  import BackgroundPage
 
 class BackgroundPage:
     def __init__(self, root):
