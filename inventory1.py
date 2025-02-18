@@ -8,7 +8,7 @@ from Login import  loginClass
 import SetImage as  si
 
 
-from connector.ConnectionProvider import ConnectionProvider
+from connector.ConnectionProvider import  ConnectionProvider
 
 
 from BackgroundPage import BackgroundPage
