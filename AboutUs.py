@@ -1,5 +1,5 @@
-import  tkinter as tk
-from tkinter import ttk
+import         tkinter as tk
+from   tkinter import ttk
 from PIL import Image, ImageTk, ImageDraw
 
 class AboutUsPage(tk.Toplevel):
