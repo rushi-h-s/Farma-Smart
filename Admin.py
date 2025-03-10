@@ -4,7 +4,7 @@ from tkinter import ttk, messagebox
 from email.message import EmailMessage
 import ssl
 import smtplib
-from  Ademp import AdEmp
+from  Ademp import  AdEmp
 from sales import sales
 from stock import stock
 from inventory import InventoryApp
