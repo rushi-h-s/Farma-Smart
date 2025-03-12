@@ -1,5 +1,5 @@
 from tkinter import *
-from PIL  import Image, ImageTk
+from PIL   import Image, ImageTk
 
 class BackgroundPage:
     def __init__(self, root):
