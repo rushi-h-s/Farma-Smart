@@ -1,6 +1,6 @@
 import              tkinter as tk
 from                  tkinter import ttk
-from PIL import Image, ImageTk, ImageDraw
+from PIL import   Image, ImageTk, ImageDraw
 
 class AboutUsPage(tk.Toplevel):
     def __init__(self):
